@@ -10,9 +10,12 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "framer-motion": "^12.23.24",
+    "jotai": "^2.15.1",
     "next": "16.0.4",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "three": "^0.181.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
