@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${font.className} antialiased text-white bg-neutral-950`}
+        className={`${font.className} flex flex-col w-screen h-screen antialiased text-white bg-neutral-950`}
       >
         {children}
       </body>
