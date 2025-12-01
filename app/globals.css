@@ -1,1 +1,10 @@
 @import "tailwindcss";
+* {
+  user-select: none;
+}
+button {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}

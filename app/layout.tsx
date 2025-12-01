@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Press_Start_2P } from "next/font/google";
+import { Source_Code_Pro } from "next/font/google";
 import "./globals.css";
 
-const font = Press_Start_2P({
+const font = Source_Code_Pro({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["200", "300", "400", "500", "600", "700", "900", "800"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${font.className} flex flex-col w-screen h-screen antialiased text-white bg-neutral-950`}
+        className={`${font.className} flex flex-col w-screen h-screen antialiased text-white bg-[#14162E]`}
       >
         {children}
       </body>
